@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+color: blue;
+text-align: center;
+}
+form{
+    background-color: whitesmoke;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid gray;
+}
+label{
+    font-weight: bold;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+button[type="submit"]{
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px,20px;
+    cursor: pointer;
+    border: none;
+}
+button[type="Reset"]{
+    background-color:red;
+    color: whitesmoke;
+    padding: 10px,20px;
+    cursor: pointer;
+    border: none;
+}
+button :hover{
+    opacity: 0.8;
+}
+
