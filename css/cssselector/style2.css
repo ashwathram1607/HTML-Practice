@@ -1,0 +1,17 @@
+input[type="text"]{
+    background-color:lightblue;
+}
+input[type="email"]{
+    background-color: lightgreen;
+}
+input[type="Password"]{
+    background-color: lightpink;
+}
+input[type="SUBMIT"]{
+    background-color:blue;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
