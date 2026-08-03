@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+}
+.box{
+    width: 200px;
+    padding: 20px;
+    background-color: yellowgreen;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    
+}
