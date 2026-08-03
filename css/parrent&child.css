@@ -1,0 +1,14 @@
+.parrent{
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    color: yellow;
+}
+.child{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+}
