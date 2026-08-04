@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: yellow;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 80px 450px 70px;
+    grid-template-areas:
+   "header header header"
+   "sidebar content ads"
+   "footer footer footer";
+    gap:20px;
+}
+.header{
+    grid-area: header;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sidebar{
+    background-color: orchid;
+    color: whitesmoke;
+    gap: 10px;
+    grid-area: sidebar;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar li{
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.course-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.card{
+     background-color: lightgreen;
+     height: 120px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 25px;
+     font-weight:  bold;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+.ads{
+    grid-area: ads;
+    background-color: pink;
+    font-size: 25px;
+}
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
